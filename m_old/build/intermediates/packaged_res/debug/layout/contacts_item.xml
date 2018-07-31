@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#E0E0E0"
+        android:textColor="#454545"
+        android:layout_weight="1.0"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingRight="0dp"
+        android:paddingEnd="0dp"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+
+    <ImageView
+        android:id="@+id/contacts_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/juxing"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/image"/>
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/white"
+        tools:ignore="RelativeOverlap" />
+    <TextView
+        android:id="@+id/contacts_name"
+        android:layout_toRightOf="@+id/contacts_img"
+        android:layout_toEndOf="@+id/contacts_img"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RelativeOverlap" />
+    <LinearLayout
+        android:id="@+id/contacts_phones_layout"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:background="@drawable/click_effect"
+        >
+        <ImageView
+            android:id="@+id/phones_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phones"
+            android:contentDescription="@string/image"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/contacts_msg_layout"
+        android:layout_toLeftOf="@+id/contacts_phones_layout"
+        android:layout_toStartOf="@+id/contacts_phones_layout"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/click_effect"
+        >
+        <ImageView
+            android:id="@+id/msg_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xiaoxis"
+            android:contentDescription="@string/image"/>
+
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/photograph_pager"
+    tools:context=".ui.homePage.infoRegister.carReg.CarOwnerPhoto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <RelativeLayout
+            android:id="@+id/compulsory_insurance_p"
+            style="@style/Sketch_map_layout">
+                <ImageView
+                    android:id="@+id/compulsory_insurance_p_img"
+                    style="@style/corner_imageView"
+                    android:contentDescription="@string/image"/>
+                <TextView
+                    style="@style/Sketch_map_text_tip"
+                    android:text="@string/Strong_insurance_policy"
+                    />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/Commercial_insurance_p"
+            style="@style/Sketch_map_layout"
+            android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/Commercial_insurance_p_img"
+                    style="@style/corner_imageView"
+                    android:contentDescription="@string/image"/>
+                <TextView
+                    style="@style/Sketch_map_text_tip"
+                    android:text="@string/Commercial_insurance_policy"
+                    />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Car.iml" filepath="$PROJECT_DIR$/Car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m_mine/m_mine.iml" filepath="$PROJECT_DIR$/m_mine/m_mine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m_old/m_old.iml" filepath="$PROJECT_DIR$/m_old/m_old.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneKeyShare/oneKeyShare.iml" filepath="$PROJECT_DIR$/oneKeyShare/oneKeyShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shareSDK/shareSDK.iml" filepath="$PROJECT_DIR$/shareSDK/shareSDK.iml" />
+    </modules>
+  </component>
+</project>

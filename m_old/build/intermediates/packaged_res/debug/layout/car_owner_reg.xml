@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:background="@color/c_w"
+        android:gravity="center"
+        android:text="@string/from_num"
+        android:textColor="@color/c_2c"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/carOwner_from"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/carOwner_from" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/carOwner_from"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@color/c_w"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/carOwner_from">
+
+        <RelativeLayout
+            android:id="@+id/carOwner_idcartReg_z"
+            style="@style/Sketch_map_layout2">
+
+            <ImageView
+                android:id="@+id/carOwner_idcartReg_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Positive_identity_card" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/carOwner_idcartReg_f"
+            style="@style/Sketch_map_layout2">
+
+            <ImageView
+                android:id="@+id/carOwner_idcartReg_f_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/opposite_idCard" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <RelativeLayout
+            android:id="@+id/carOwner_Temp"
+            style="@style/Sketch_map_layout2">
+
+            <ImageView
+                android:id="@+id/carOwner_Temp_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Temp_residence_permit" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/carOwner_Temp_F"
+            style="@style/Sketch_map_layout2">
+
+            <ImageView
+                android:id="@+id/carOwner_Temp_img_F"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Temp_residence_permit_opposite" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

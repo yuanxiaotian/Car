@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photograph_pager_r"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.homePage.infoRegister.carReg.CarOwnerPhoto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/Road_transport_permit_p"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Road_transport_permit_p_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Road_transport_license_front_photo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Road_transport_permit_F"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Road_transport_permit_F_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Road_transport_license" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Body_45_degrees"
+            style="@style/Sketch_map_layout"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/Body_45_degrees_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/degree_fire_extinguisher" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion rootProject.ext.android.sdk_version
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.min_sdk
+        targetSdkVersion rootProject.ext.android.target_sdk
+        versionCode rootProject.ext.android.code
+        versionName rootProject.ext.android.name
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api files('libs/poi-3.9-20121203.jar')
+    api files('libs/poi-scratchpad-3.9-20121203.jar')
+    api files('libs/poi-ooxml-3.14-20160307.jar')
+    api files('libs/libammsdk.jar')
+    /*retrofit-okhttp-rxjava-rxandroid*/
+    api files('libs/alipaySdk-20160825.jar')
+    android {
+        useLibrary 'org.apache.http.legacy'
+    }
+    api 'com.journeyapps:zxing-android-embedded:3.4.0'
+    api 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
+    api 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    api 'cn.bingoogolapple:bga-swipebacklayout:1.0.5'
+    api 'com.jakewharton.rxbinding:rxbinding:1.0.0'
+    //    compile 'org.greenrobot:eventbus:3.0.0'
+    api project(':Library')
+    api project(':oneKeyShare')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_e8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.youth.banner.Banner
+            android:id="@+id/slideshowView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/c_w"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/c_w"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/shouye1_select" />
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/c_e8" />
+
+            <ViewFlipper
+                android:id="@+id/viewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center_vertical"
+                android:autoStart="true"
+                android:background="@color/c_w"
+                android:flipInterval="3000"
+                android:inAnimation="@anim/anim_come_in"
+                android:outAnimation="@anim/anim_get_out" />
+        </LinearLayout>
+
+
+        <include
+            layout="@layout/home_middle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>
+

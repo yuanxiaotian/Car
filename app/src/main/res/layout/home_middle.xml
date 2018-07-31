@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_e8"
+    android:orientation="vertical">
+
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/whole_car_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/car"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/whole_car"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/information_reg_layout" />
+
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/information_reg_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/camera"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/information_reg"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/whole_car_layout"
+        app:layout_constraintLeft_toRightOf="@+id/whole_car_layout"
+        app:layout_constraintRight_toLeftOf="@+id/Inventory_vehicle_layout"
+        app:layout_constraintTop_toTopOf="@+id/whole_car_layout" />
+
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/Inventory_vehicle_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/box"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/illegal_query"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/whole_car_layout"
+        app:layout_constraintLeft_toRightOf="@+id/information_reg_layout"
+        app:layout_constraintRight_toLeftOf="@+id/financial_management_layout"
+        app:layout_constraintTop_toTopOf="@+id/whole_car_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/financial_management_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/money"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/financial_management"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/whole_car_layout"
+        app:layout_constraintLeft_toRightOf="@+id/Inventory_vehicle_layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whole_car_layout" />
+
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/schedule_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/ding"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/schedule"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/past_events_layout"
+        app:layout_constraintTop_toBottomOf="@+id/whole_car_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/past_events_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/tag"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/past_events"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/schedule_layout"
+        app:layout_constraintLeft_toRightOf="@+id/schedule_layout"
+        app:layout_constraintRight_toLeftOf="@+id/marketing_manager_layout"
+        app:layout_constraintTop_toTopOf="@+id/schedule_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/marketing_manager_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/lingdai"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/marketing_manager"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/schedule_layout"
+        app:layout_constraintLeft_toRightOf="@+id/past_events_layout"
+        app:layout_constraintRight_toLeftOf="@+id/message_manager_layout"
+        app:layout_constraintTop_toTopOf="@+id/schedule_layout" />
+
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/message_manager_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/messageicon"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/message_manager"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/schedule_layout"
+        app:layout_constraintLeft_toRightOf="@+id/marketing_manager_layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/schedule_layout" />
+
+
+</android.support.constraint.ConstraintLayout>

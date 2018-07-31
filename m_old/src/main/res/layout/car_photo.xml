@@ -1,0 +1,210 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photograph_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.homePage.infoRegister.carReg.OtherPhoto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/car_photo_Construction_waste"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/car_photo_p_Construction_waste_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Construction_waste_positive"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_Construction_waste_opposite"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/car_photo_p_Construction_waste_opposite_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Construction_waste_opposite"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p12"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img12"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p11"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img11"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p10"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img10"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p9"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img9"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p8"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img8"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p7"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img7"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p6"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img6"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p5"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img5"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p4"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img4"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p3"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img3"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p2"
+            style="@style/Sketch_map_layout"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/car_photo_p_img2"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/car_photo_p"
+            style="@style/Sketch_map_layout"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/car_photo_p_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/car_photo" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,280 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:context=".ui.homePage.allCar.CarOwnerInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/driver_header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="780dp"
+            android:background="@color/content_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/driver_photo"
+                android:textColor="@color/font_light_gery"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:id="@+id/driver_idcart_z"
+                   style="@style/Sketch_map_layout2">
+
+                        <ImageView
+                            android:id="@+id/driver_idcart_z_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add_default_photo"
+                            android:contentDescription="@string/image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Positive_identity_card"
+                        android:textColor="@android:color/white"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/textView2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/driver_idcart_f"
+                    style="@style/Sketch_map_layout2">
+
+                        <ImageView
+                            android:id="@+id/driver_idcart_f_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add_default_photo"
+                            android:contentDescription="@string/image"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/rounded_rectangle"
+                            android:gravity="center"
+                            android:text="@string/opposite_idCard"
+                            android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/driver_Driver_license"
+                    style="@style/Sketch_map_layout2">
+
+                    <ImageView
+                        android:id="@+id/driver_Driver_license_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo"
+                        android:contentDescription="@string/image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Driver_license"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/driver_c_Driver_license"
+                    style="@style/Sketch_map_layout2">
+                    <ImageView
+                        android:id="@+id/driver_c_Driver_license_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo"
+                        android:contentDescription="@string/image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Copy_of_driver_license"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/driver_Qualification_certificate"
+                    style="@style/Sketch_map_layout2">
+
+                    <ImageView
+                        android:id="@+id/driver_Qualification_certificate_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo"
+                        android:contentDescription="@string/image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Positive_employment_qualification_certificate"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/driver_Qualification_certificate_F"
+                    style="@style/Sketch_map_layout2">
+                    <ImageView
+                        android:id="@+id/driver_Qualification_certificate_F_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo"
+                        android:contentDescription="@string/image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Positive_employment_qualification_certificate_opposite"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/md_Driver_safety_undertaking"
+                    style="@style/Sketch_map_layout2">
+                    <ImageView
+                        android:id="@+id/md_Driver_safety_undertaking_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo"
+                        android:contentDescription="@string/image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Driver_safety_undertaking"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/driver_temp_hotel"
+                    style="@style/Sketch_map_layout2">
+                        <ImageView
+                            android:id="@+id/driver_temp_hotel_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add_default_photo"
+                            android:contentDescription="@string/image"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/rounded_rectangle"
+                            android:gravity="center"
+                            android:text="@string/Temp_residence_permit"
+                            android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/driver_temp_hotel_F"
+                    style="@style/Sketch_map_layout2">
+                    <ImageView
+                        android:id="@+id/driver_temp_hotel_F_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo"
+                        android:contentDescription="@string/image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Temp_residence_permit_opposite"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/driver_c_Driver_license_F"
+                    style="@style/Sketch_map_layout2">
+
+                    <ImageView
+                        android:id="@+id/driver_c_Driver_license_F_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo"
+                        android:contentDescription="@string/image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Copy_of_driver_license_opposite"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

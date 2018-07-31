@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xuliucar.me">
+
+    <application>
+
+        <activity android:name=".ui.activity.LoginActivity">
+            <intent-filter>
+                <data
+                    android:host="login"
+                    android:scheme="mine" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activity.RegActivity">
+            <intent-filter>
+                <data
+                    android:host="reg"
+                    android:scheme="mine" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

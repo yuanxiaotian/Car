@@ -1,0 +1,62 @@
+ext {
+
+    android = [
+            sdk_version  : 27,
+            min_sdk      : 16,
+            target_sdk   : 27,
+            code         : 1,
+            name         : "1.0.0",
+            tools_version: "27.0.3",
+            id           : "com.xuliucar.car",
+            id_me        : "com.xuliucar.me"
+
+    ]
+
+    libsVersion = [
+            supportLibraryVersion = "27.1.1",
+            greendao = "3.2.2",
+    ]
+
+    dependencies = [
+            appcompatV7            : "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion",
+            design                 : "com.android.support:design:$rootProject.supportLibraryVersion",
+            drawable               : "com.android.support:support-vector-drawable:$rootProject.supportLibraryVersion",
+            cardView               : "com.android.support:cardview-v7:$rootProject.supportLibraryVersion",
+            greendao               : "org.greenrobot:greendao:$rootProject.greendao",
+            greendao_generator     : "org.greenrobot:greendao-generator:$rootProject.greendao",
+            junit                  : "junit:junit:4.12",
+            runner                 : "com.android.support.test:runner:1.0.2",
+            espresso               : "com.android.support.test.espresso:espresso-core:3.0.2",
+            constraintLayout       : "com.android.support.constraint:constraint-layout:1.1.0",
+            retrofit               : "com.squareup.retrofit2:retrofit:2.3.0",
+            gson                   : "com.squareup.retrofit2:converter-gson:2.1.0",
+            retrofit2Rxjava2Adapter: "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0",
+            okhttp                 : "com.squareup.okhttp3:okhttp:3.8.1",
+            loggingInterceptor     : "com.squareup.okhttp3:logging-interceptor:3.8.0",
+            rxjava                 : "io.reactivex.rxjava2:rxjava:2.1.0",
+            rxandroid              : "io.reactivex.rxjava2:rxandroid:2.0.1",
+            multiImageSelector     : "com.github.lovetuzitong:MultiImageSelector:1.2",
+            libRequest             : "com.github.yuanxiaotian:Request:1.1.7",
+            libAdapter             : "com.github.yuanxiaotian:Lib_Adapter:1.0.2",
+            retrofit2Adapter       : "com.squareup.retrofit2:adapter-rxjava2:2.2.0",
+            kotlin_version         : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:",
+            core_ktx               : "androidx.core:core-ktx:1.0.0-alpha1",
+            banner                 : "com.youth.banner:banner:1.4.10",
+            fresco                 : "com.facebook.fresco:fresco:1.9.0",
+            systembartint          : "com.readystatesoftware.systembartint:systembartint:1.0.3",
+            smartRefreshLayout     : "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-7",
+            glide                  : "com.github.bumptech.glide:glide:4.7.1",
+            compiler               : "com.github.bumptech.glide:compiler:4.7.1",
+            eventbus               : "org.greenrobot:eventbus:3.1.1",
+            fragmentation          : "me.yokeyword:fragmentation:1.3.5",
+            multidex               : "com.android.support:multidex:1.0.0",
+            xinge                  : "com.tencent.xinge:xinge:3.2.3-release",
+            wup                    : "com.tencent.wup:wup:1.0.0.E-release",
+            mid                    : "com.tencent.mid:mid:4.0.6-release",
+            baseAdapter            : "com.zhy:base-adapter:3.0.3",
+            swipe                  : "com.yanzhenjie:recyclerview-swipe:1.1.4",
+            wavesidebar            : "com.gjiazhe:wavesidebar:1.3",
+            tinypinyin             : "com.github.promeg:tinypinyin:2.0.3", // TinyPinyin核心包，约80KB
+            rxpermissions          : "com.github.tbruyelle:rxpermissions:0.10.2"
+    ]
+}

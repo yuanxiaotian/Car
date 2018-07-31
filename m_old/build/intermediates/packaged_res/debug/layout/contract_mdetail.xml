@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical"
+    tools:context=".newmvp.view.saleManage.detail.ContractMDetail">
+
+    <include layout="@layout/toolbar_view" />
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/contact_detail_RefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Customer_name" />
+
+                    <TextView
+                        android:id="@+id/cd_clientname"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Vehicle_type" />
+
+                    <TextView
+                        android:id="@+id/cd_cartype"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Brand_model" />
+
+                    <TextView
+                        android:id="@+id/cd_model"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Frame_number" />
+
+                    <TextView
+                        android:id="@+id/cd_framenum"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Engine_number" />
+
+                    <TextView
+                        android:id="@+id/cd_enginenum"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Transaction_type" />
+
+                    <TextView
+                        android:id="@+id/cd_dealtype"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Transaction_price" />
+
+                    <TextView
+                        android:id="@+id/cd_dealprice"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Deposit" />
+
+                    <TextView
+                        android:id="@+id/cd_deposits"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout
+                    style="@style/a_line_style"
+                    android:background="@color/content_bg"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/Staging_information" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Shoufu" />
+
+                    <TextView
+                        android:id="@+id/cd_downpay"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Retainage" />
+
+                    <TextView
+                        android:id="@+id/cd_retainage"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/time_limit" />
+
+                    <TextView
+                        android:id="@+id/cd_insttl"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Stage_number" />
+
+                    <TextView
+                        android:id="@+id/cd_instnum"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Repayment_Date" />
+
+                    <TextView
+                        android:id="@+id/cd_paydate"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Period_for_principal" />
+
+                    <TextView
+                        android:id="@+id/cd_principal"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text_light"
+                        android:text="@string/Period_for_interest" />
+
+                    <TextView
+                        android:id="@+id/cd_interest"
+                        style="@style/a_line_style_text_light2" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+            </LinearLayout>
+        </ScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photograph_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_e8"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/from_num"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/people_from"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/people_idcart"
+            style="@style/Sketch_map_layout2">
+
+            <ImageView
+                android:id="@+id/people_idcart_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:gravity="center"
+                android:text="@string/Positive_identity_card" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/people_Certificate"
+            style="@style/Sketch_map_layout2">
+
+            <ImageView
+                android:id="@+id/people_Certificate_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Main_person_in_charge_certificate_photo"
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/people_Safety_Officer"
+            style="@style/Sketch_map_layout2">
+
+            <ImageView
+                android:id="@+id/people_Safety_Officer_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Photo_of_Safety_Officer" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/image"
+                android:src="@drawable/add_default_photo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bottom_dark_radius"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

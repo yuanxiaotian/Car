@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_square"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/send_target_carOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_edit_line"
+        android:padding="10dp"
+        android:text="@string/send_carOwner"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/send_target_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_edit_line"
+        android:padding="10dp"
+        android:text="@string/send_driver"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/send_target_staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_edit_line"
+        android:padding="10dp"
+        android:text="@string/send_staff"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/send_target_custom_staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_edit_line"
+        android:padding="10dp"
+        android:text="@string/send_custom_staff"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/send_target_custom_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/send_custom_phone"
+        android:textSize="16sp" />
+</LinearLayout>

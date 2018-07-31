@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="a_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="a_line_style_text2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/c_e8</item>
+    </style>
+
+    <style name="Sketch_map_layout2">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/corners_border</item>
+    </style>
+
+    <style name="a_line_style_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical|end</item>
+        <item name="android:textColor">@color/c_1e</item>
+    </style>
+</resources>

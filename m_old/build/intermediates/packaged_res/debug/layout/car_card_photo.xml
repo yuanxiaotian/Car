@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photograph_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.homePage.infoRegister.carReg.OtherPhoto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/Driving_license_z"
+            style="@style/Sketch_map_layout">
+
+            <ImageView
+                android:id="@+id/Driving_license_z_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Driving_license_original" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/Driving_license_F"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Driving_license_F_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Driving_license_original_opposite" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Copy_driving_license"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Copy_driving_license_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Copy_of_driving_license" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Copy_driving_license_F"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Copy_driving_license_F_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Copy_of_driving_license_opposite" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Motor_vehicle_registration"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Motor_vehicle_registration_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Motor_vehicle_registration" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Motor_vehicle_registration_move"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Motor_vehicle_registration_move_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Motor_vehicle_registration_move" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Motor_vehicle_qualified"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Motor_vehicle_qualified_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Certificate_of_motor_vehicle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Purchase_invoice"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Purchase_invoice_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Buy_and_send_tickets" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tax_records"
+            style="@style/Sketch_map_layout"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/tax_records_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Tax_payment_certificate" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

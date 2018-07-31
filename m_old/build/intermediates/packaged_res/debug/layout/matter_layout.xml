@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_e8"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/matter_select_all_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@color/c_w"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+
+        <CheckBox
+            android:id="@+id/matter_select_all"
+            style="@style/CustomCheckboxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/Select_all"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/matter_refreshLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0.8dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_cancel"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matter_select_all_layout">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bt_cancel"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="0.4dp"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/matter_refreshLayout"
+        app:layout_constraintRight_toLeftOf="@+id/sure"
+        app:layout_constraintTop_toBottomOf="@+id/matter_refreshLayout" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/sure"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="0.4dp"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:gravity="center"
+        android:text="@string/sure"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/bt_cancel"
+        app:layout_constraintRight_toRightOf="@+id/matter_refreshLayout"
+        app:layout_constraintTop_toTopOf="@+id/bt_cancel" />
+
+</android.support.constraint.ConstraintLayout>

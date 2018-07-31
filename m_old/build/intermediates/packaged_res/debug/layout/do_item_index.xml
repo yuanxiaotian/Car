@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/do_item_index_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_e8"
+    tools:context=".newmvp.view.wait.WaitIndex"
+    tools:ignore="Overdraw">
+
+    <include
+        android:id="@+id/i_toolbar"
+        layout="@layout/toolbar_view" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/toTrusteeship_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/tuoguandaiban"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Managed_to_do"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/js_layout"
+        app:layout_constraintTop_toBottomOf="@+id/i_toolbar" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/js_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0.5dp"
+        android:layout_marginRight="0.5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/jishen"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Do_perpetuae"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/toTrusteeship_layout"
+        app:layout_constraintLeft_toRightOf="@+id/toTrusteeship_layout"
+        app:layout_constraintRight_toLeftOf="@+id/ns_layout"
+        app:layout_constraintTop_toTopOf="@+id/toTrusteeship_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/ns_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/nianshen"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Limited_to"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/toTrusteeship_layout"
+        app:layout_constraintLeft_toRightOf="@+id/js_layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toTrusteeship_layout" />
+
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/np_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/nianpiao"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/The_ticket_to_do"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/bx_layout"
+        app:layout_constraintTop_toBottomOf="@+id/toTrusteeship_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/bx_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0.5dp"
+        android:layout_marginRight="0.5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/baoxian1"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Do_insurance"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/np_layout"
+        app:layout_constraintLeft_toRightOf="@+id/np_layout"
+        app:layout_constraintRight_toLeftOf="@+id/dldb_layout"
+        app:layout_constraintTop_toTopOf="@+id/np_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/dldb_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/daolu"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Road_transport_permits_to_do"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/np_layout"
+        app:layout_constraintLeft_toRightOf="@+id/bx_layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/np_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/dlns_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/yunshu"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Road_transport_permits_limited"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/hb_layout"
+        app:layout_constraintTop_toBottomOf="@+id/np_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/hb_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0.5dp"
+        android:layout_marginRight="0.5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/huanbao"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Green_flag_to_do"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/dlns_layout"
+        app:layout_constraintLeft_toRightOf="@+id/dlns_layout"
+        app:layout_constraintRight_toLeftOf="@+id/do_construction_waste_layout"
+        app:layout_constraintTop_toTopOf="@+id/dlns_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/do_construction_waste_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/cwa"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/construction_waste_to"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/dlns_layout"
+        app:layout_constraintLeft_toRightOf="@+id/hb_layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dlns_layout" />
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/jsz_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/jiashi"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/The_driver_license_to_do"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/dlns_layout"
+        app:layout_constraintTop_toBottomOf="@+id/dlns_layout" />
+
+
+    <com.cangmaomao.lib.view.CustomTextView
+        android:id="@+id/company_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/c_w"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/jiashi"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/Company_documents_to_do"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/jsz_layout"
+        app:layout_constraintLeft_toLeftOf="@+id/hb_layout"
+        app:layout_constraintRight_toRightOf="@+id/hb_layout"
+        app:layout_constraintTop_toTopOf="@+id/jsz_layout" />
+</android.support.constraint.ConstraintLayout>

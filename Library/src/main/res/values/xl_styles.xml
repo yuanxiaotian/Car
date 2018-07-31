@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/c_2c</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@color/c_w</item>
+    </style>
+
+    <style name="text_other_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/c_58</item>
+        <item name="android:textSize">@dimen/text_other_size</item>
+        <item name="android:background">@color/c_w</item>
+    </style>
+
+    <style name="text_big_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/c_2c</item>
+        <item name="android:textSize">@dimen/big_text_size</item>
+        <item name="android:background">@color/c_w</item>
+    </style>
+
+
+    <style name="text_big_l_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/c_2c</item>
+        <item name="android:textSize">@dimen/big_l_text_size</item>
+        <item name="android:background">@color/c_w</item>
+    </style>
+
+
+</resources>

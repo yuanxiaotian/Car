@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/License_plate" />
+        <TextView
+            android:id="@+id/pdplates"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Owner_name" />
+        <TextView
+            android:id="@+id/pdownername"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Vehicle_type" />
+        <TextView
+            android:id="@+id/pdct"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Brand_model" />
+        <TextView
+            android:id="@+id/pdmd"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Total_mass" />
+        <TextView
+            android:id="@+id/pdtw"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/curb_weight"
+            android:textColor="@color/light_blue" />
+        <TextView
+            android:id="@+id/pdew"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Nuclear_load_mass" />
+        <TextView
+            android:id="@+id/pdlw"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/displacement" />
+        <TextView
+            android:id="@+id/pdem"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Total_accounts_receivable" />
+        <TextView
+            android:id="@+id/pdtotalcharge"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Total_received"
+            android:textColor="@color/light_blue" />
+        <TextView
+            android:id="@+id/pdtotalapd"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Total_use_of_pre_deposit"
+            android:textColor="@color/light_blue" />
+        <TextView
+            android:id="@+id/pdtotaldeposits"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+</LinearLayout>

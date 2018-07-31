@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/company_name" />
+
+        <TextView
+            android:id="@+id/companyName_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/now_login_user" />
+
+        <TextView
+            android:id="@+id/user_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/rights_of_current_user" />
+
+        <TextView
+            android:id="@+id/userp_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Nature_of_company" />
+
+        <TextView
+            android:id="@+id/compoptype_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/total_cars" />
+
+        <TextView
+            android:id="@+id/cnum_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Business_license_registration_num" />
+
+        <TextView
+            android:id="@+id/complicnum_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/main_type" />
+
+        <TextView
+            android:id="@+id/comptype_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/date_of_establishment" />
+
+        <TextView
+            android:id="@+id/compestdate_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/residence" />
+
+        <TextView
+            android:id="@+id/address_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Legal_representative" />
+
+        <TextView
+            android:id="@+id/owner_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/registered_capital" />
+
+        <TextView
+            android:id="@+id/regcapital_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Contact_number" />
+
+        <TextView
+            android:id="@+id/tel_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Actual_residence" />
+
+        <TextView
+            android:id="@+id/raddress_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Road_transport_permit_issuing_authority" />
+
+        <TextView
+            android:id="@+id/tpstr_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Road_transport_license_expiration_date" />
+
+        <TextView
+            android:id="@+id/tpedate_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Main_item_category" />
+
+        <TextView
+            android:id="@+id/mb_text"
+            style="@style/a_line_style_text2" />
+    </LinearLayout>
+</LinearLayout>

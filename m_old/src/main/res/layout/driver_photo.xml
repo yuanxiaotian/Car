@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photograph_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.homePage.infoRegister.carReg.CarOwnerPhoto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/d_idcart_z"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/d_idcart_z_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Positive_identity_card" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/d_idcart_f"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/d_idcart_f_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/opposite_idCard" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/d_Driver_license_z"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/d_Driver_license_z_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Driver_license" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/d_Copy_driver_license"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/d_Copy_driver_license_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Copy_of_driver_license" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Qualification_certificate_z"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Qualification_certificate_z_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Positive_employment_qualification_certificate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Qualification_certificate_F"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Qualification_certificate_F_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Positive_employment_qualification_certificate_opposite"
+                android:contentDescription="@string/image"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/driver_safe_permisson"
+            style="@style/Sketch_map_layout"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/driver_safe_permisson_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Driver_safety_undertaking" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Temporary_residence_permit_z"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Temporary_residence_permit_z_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Temp_residence_permit" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Temporary_residence_permit_F"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/Temporary_residence_permit_F_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Temp_residence_permit_opposite" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/d_Copy_driver_license_F"
+            style="@style/Sketch_map_layout">
+            <ImageView
+                android:id="@+id/d_Copy_driver_license_F_img"
+                style="@style/corner_imageView"
+                android:contentDescription="@string/image"/>
+            <TextView
+                style="@style/Sketch_map_text_tip"
+                android:text="@string/Copy_of_driver_license_opposite" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

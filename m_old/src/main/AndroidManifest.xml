@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xuliucar.xuli.xuliucar">
+
+
+
+    <application>
+        <!--<meta-data-->
+        <!--android:name="com.tencent.rdm.uuid"-->
+        <!--android:value="3d2c7db2-43e7-4ef4-952d-c594ab03a2c6" />-->
+
+        <!--<activity-->
+        <!--android:name=".ui.StartPage"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/sp_bg" />-->
+        <!--<activity-->
+        <!--android:name=".ui.Login"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.GuidePage"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.index.MainActivity"-->
+        <!--android:screenOrientation="portrait" />-->
+
+        <!--<activity-->
+        <!--android:name=".qrCode.CustomScanAct"-->
+        <!--android:screenOrientation="portrait" />-->
+
+
+        <!--<activity-->
+        <!--android:name=".ui.homePage.financeManager.PayInfoDetail"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+        <!--<activity-->
+        <!--android:name=".ui.homePage.CompanyDetail"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoConstructionWaste"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoLimited"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoYearTicket"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoInsurance"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoRoadTC"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoYearRoadT"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoEnvironment"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoDriverLicense"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.doItems.DoCompanyDoc"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.ChildObsolete"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassLimited"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassYearTicket"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassInsurance"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassEnvironment"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassYearRoadT"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassDriverLicense"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassTrusteeship"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.passItems.PassConstructionWaste"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.carListSearch"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.newCarSearch"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.UsedCarSearch"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoPerpetuaeS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoLimitedS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoYearTicketS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoInsuranceS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassTrusteeshipS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoRoadeRTLS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoRoadTCS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoEnvironmentS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassPerpetuaeS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoDriverLicenseS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoCompanyDocS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassLimitedS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassYearTicketS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassInsuranceS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassEnvironmentS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassYearRoadTS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassDriverLicenseS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.InComeDetailS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.OutComeDetailS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PayInfoS"-->
+        <!--android:screenOrientation="portrait" />-->
+
+        <!--<activity-->
+        <!--android:name=".ui.search.PassPayS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.OrderManageS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.ContractManageS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.AchieveManageS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoConstructionWasteS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.PassConstructionWasteS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.notice.Web"-->
+        <!--android:hardwareAccelerated="true"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.notice.OpenPDF"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.FeedBack"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.ChangePwd"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.Staff"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.StaffDetail"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.StaffS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.Driver"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.DriverDetail"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DriverS"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.Transparent" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.CarOwner"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.me.CarOwnerDetail"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.CarOwnerS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.notice.World"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <!--<activity-->
+        <!--android:name=".ui.notice.FileReadActivity"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+
+        <!--<activity android:name=".ui.notice.OtherNotices" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.DoTrusteeshipS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity android:name=".ui.cutPic" />-->
+        <!--<activity android:name=".myCamera.RectCameraActivity" />-->
+        <!--<activity android:name=".myCamera2.CameraActivity" />-->
+        <!--<activity-->
+        <!--android:name=".wxapi.WXEntryActivity"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:exported="true"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+        <!--<activity-->
+        <!--android:name="com.mob.tools.MobUIShell"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"-->
+        <!--android:windowSoftInputMode="stateHidden|adjustResize">-->
+        <!--<intent-filter>-->
+        <!--<data android:scheme="tencent1105421908" />-->
+
+        <!--<action android:name="android.intent.action.VIEW" />-->
+
+        <!--<category android:name="android.intent.category.BROWSABLE" />-->
+        <!--<category android:name="android.intent.category.DEFAULT" />-->
+        <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.messageManager.MessageManageIndex"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.homePage.messageManager.CustomPeopleView"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+
+
+
+        <!--<activity-->
+        <!--android:name=".ui.me.InformationCenter"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+        <!--&lt;!&ndash; 支付宝支付 &ndash;&gt;-->
+        <!--<activity-->
+        <!--android:name="com.alipay.sdk.app.H5PayActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden|navigation"-->
+        <!--android:exported="false"-->
+        <!--android:screenOrientation="behind" />-->
+        <!--<activity-->
+        <!--android:name="com.alipay.sdk.auth.AuthActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden|navigation"-->
+        <!--android:exported="false"-->
+        <!--android:screenOrientation="behind" />-->
+
+        <!--&lt;!&ndash; 微信支付 &ndash;&gt;-->
+
+        <!--<activity-->
+        <!--android:name=".wxapi.WXPayEntryActivity"-->
+        <!--android:exported="true"-->
+        <!--android:launchMode="singleTop" />-->
+        <!--<activity android:name=".pay.PayActivity" />-->
+
+        <!--<activity-->
+        <!--android:name=".ui.search.MsgHistorySendS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        <!--android:name=".ui.search.CustomPeopleS"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity android:name=".ui.homePage.illegalQuery.IllegalInfoList" />-->
+        <!--<activity android:name=".ui.homePage.illegalQuery.IllegalDetail" />-->
+        <!--<activity android:name=".ui.homePage.illegalQuery.IllegalOrder" />-->
+        <!--<activity android:name=".ui.homePage.illegalQuery.PricesRecord" />-->
+        <!--<activity android:name=".ui.homePage.illegalQuery.SaveRecord" />-->
+        <!--<activity android:name=".ui.homePage.illegalQuery.AutoQuery" />-->
+    </application>
+
+</manifest>

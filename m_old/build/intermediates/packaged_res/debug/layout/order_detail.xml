@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical"
+    tools:context=".newmvp.view.saleManage.detail.OrderDetail">
+
+    <include layout="@layout/toolbar_view" />
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/order_detail_s"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Order_number" />
+
+                    <TextView
+                        android:id="@+id/d_ordernum"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Customer_name" />
+
+                    <TextView
+                        android:id="@+id/d_client"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Customer_level" />
+
+                    <TextView
+                        android:id="@+id/d_clevel"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Contact_number" />
+
+                    <TextView
+                        android:id="@+id/d_phone"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Intention_models" />
+
+                    <TextView
+                        android:id="@+id/d_model"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+
+                    <TextView
+                        android:id="@+id/d_more"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/click_effect"
+                        android:gravity="center"
+                        android:text="@string/more"
+                        android:textColor="@color/light_blue" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Purchase_quantity" />
+
+                    <TextView
+                        android:id="@+id/d_num"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Single_car_quote" />
+
+                    <TextView
+                        android:id="@+id/d_nprice"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/A_single_package_price" />
+
+                    <TextView
+                        android:id="@+id/d_tprice"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Transaction_type" />
+
+                    <TextView
+                        android:id="@+id/d_dealtype"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Total_order_quotation" />
+
+                    <TextView
+                        android:id="@+id/d_dealprice"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+
+                <LinearLayout style="@style/a_line_style">
+
+                    <TextView
+                        style="@style/a_line_style_text"
+                        android:text="@string/Order_status" />
+
+                    <TextView
+                        android:id="@+id/d_status"
+                        style="@style/a_line_style_text2"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/line" />
+            </LinearLayout>
+        </ScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

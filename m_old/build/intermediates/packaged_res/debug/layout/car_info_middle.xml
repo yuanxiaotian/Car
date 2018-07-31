@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/ID_num" />
+
+        <TextView
+            android:id="@+id/ID_num"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/Enterprise_class" />
+
+        <TextView
+            android:id="@+id/Enterprise_class"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/start_date" />
+
+        <TextView
+            android:id="@+id/start_date"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/end_date" />
+
+        <TextView
+            android:id="@+id/end_date"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+</LinearLayout>

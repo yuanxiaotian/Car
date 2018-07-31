@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardUseCompatPadding="true"
+    android:foreground="?attr/selectableItemBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/doc_licname_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/Type_of_Identification_Document"/>
+
+        <TextView
+            android:id="@+id/doc_licname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/doc_licname_title"
+            android:layout_toEndOf="@+id/doc_licname_title"
+            android:layout_toRightOf="@+id/doc_licname_title"
+            android:text="@string/Road_transport_permit"
+            android:textColor="@android:color/background_dark"/>
+
+        <TextView
+            android:id="@+id/doc_etime_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/doc_licname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/doc_licname"
+            android:layout_toRightOf="@+id/doc_licname"
+            android:text="@string/Maturity_date"
+            android:textColor="@color/sh"/>
+
+        <TextView
+            android:id="@+id/doc_etime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/doc_etime_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/doc_etime_title"
+            android:layout_toRightOf="@+id/doc_etime_title"
+            android:textColor="@color/sh"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

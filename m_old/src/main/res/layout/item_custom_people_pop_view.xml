@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custom_people"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c_e8"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/c_w"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/big_text_size"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <com.xuliucar.xuli.xuliucar.widget.tagView.FlowTagLayout
+        android:id="@+id/custom_people_owners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w" />
+
+</LinearLayout>

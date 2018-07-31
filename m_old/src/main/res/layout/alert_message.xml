@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/car_owner_msg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/phone_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/xiaoxis" />
+
+            <TextView
+                android:id="@+id/car_owner_title_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/phone_img"
+                android:layout_toRightOf="@+id/phone_img"
+                android:text="@string/carOwner_phone_one"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/car_owner_name_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/car_owner_title_msg"
+                android:layout_alignStart="@+id/car_owner_title_msg"
+                android:layout_below="@+id/car_owner_title_msg"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/car_owner_phone_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/car_owner_name_msg"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/car_owner_name_msg"
+                android:layout_toRightOf="@+id/car_owner_name_msg"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/car_owner_msg_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/phone_img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/xiaoxis" />
+
+            <TextView
+                android:id="@+id/car_owner_title_msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/phone_img2"
+                android:layout_toRightOf="@+id/phone_img2"
+                android:text="@string/carOwner_phone_two"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/car_owner_name_msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/car_owner_title_msg2"
+                android:layout_alignStart="@+id/car_owner_title_msg2"
+                android:layout_below="@+id/car_owner_title_msg2"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/car_owner_phone_msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/car_owner_name_msg2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/car_owner_name_msg2"
+                android:layout_toRightOf="@+id/car_owner_name_msg2"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/car_driver_msg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/phone_img_tow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/xiaoxis" />
+
+            <TextView
+                android:id="@+id/car_driver_title_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/phone_img_tow"
+                android:layout_toRightOf="@+id/phone_img_tow"
+                android:text="@string/main_driver_phone_one"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/car_driver_name_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/car_driver_title_msg"
+                android:layout_alignStart="@+id/car_driver_title_msg"
+                android:layout_below="@+id/car_driver_title_msg"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/car_driver_phone_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/car_driver_name_msg"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/car_driver_name_msg"
+                android:layout_toRightOf="@+id/car_driver_name_msg"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/car_driver_msg_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/phone_img_tow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/xiaoxis" />
+
+            <TextView
+                android:id="@+id/car_driver_title_msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/phone_img_tow2"
+                android:layout_toRightOf="@+id/phone_img_tow2"
+                android:text="@string/main_driver_phone_two"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/car_driver_name_msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/car_driver_title_msg2"
+                android:layout_alignStart="@+id/car_driver_title_msg2"
+                android:layout_below="@+id/car_driver_title_msg2"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/car_driver_phone_msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/car_driver_name_msg2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/car_driver_name_msg2"
+                android:layout_toRightOf="@+id/car_driver_name_msg2"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/car_driver_msg_layout_double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/phone_img_tow_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/xiaoxis" />
+
+            <TextView
+                android:id="@+id/car_driver_title_msg_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/phone_img_tow_double"
+                android:layout_toRightOf="@+id/phone_img_tow_double"
+                android:text="@string/assistant_driver_phone_one"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/car_driver_name_msg_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/car_driver_title_msg_double"
+                android:layout_alignStart="@+id/car_driver_title_msg_double"
+                android:layout_below="@+id/car_driver_title_msg_double"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/car_driver_phone_msg_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/car_driver_name_msg_double"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/car_driver_name_msg_double"
+                android:layout_toRightOf="@+id/car_driver_name_msg_double"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/car_driver_msg_layout2_double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/phone_img_tow2_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/xiaoxis" />
+
+            <TextView
+                android:id="@+id/car_driver_title_msg2_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/phone_img_tow2_double"
+                android:layout_toRightOf="@+id/phone_img_tow2_double"
+                android:text="@string/assistant_driver_phone_two"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/car_driver_name_msg2_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/car_driver_title_msg2_double"
+                android:layout_alignStart="@+id/car_driver_title_msg2_double"
+                android:layout_below="@+id/car_driver_title_msg2_double"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/car_driver_phone_msg2_double"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/car_driver_name_msg2_double"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/car_driver_name_msg2_double"
+                android:layout_toRightOf="@+id/car_driver_name_msg2_double"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

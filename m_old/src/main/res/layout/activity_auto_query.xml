@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_auto_query"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xuliucar.xuli.xuliucar.ui.homePage.illegalQuery.AutoQuery">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/illegal_info_List_toobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        app:navigationIcon="@drawable/back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/illegal_self_query"
+            android:textColor="#fff"
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:id="@+id/illegal_info_List_toSearch"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:visibility="invisible"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/image"
+                android:src="@drawable/sousuo"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/count_points_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/light_blue">
+
+        <TextView
+            android:id="@+id/count_points_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/count_points"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/count_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/count_points_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="125"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+
+    <View style="@style/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_use"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/already_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/light_grey"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today_give"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/today_give"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/a_line_style_illegal_search">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:text="粤A"
+            android:textColor="@android:color/black"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/light_grey"/>
+        <EditText
+            android:id="@+id/plate_num"
+            android:layout_width="match_parent"
+            android:hint="@string/input_plate_num_tips"
+            android:layout_height="match_parent"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <View
+        style="@style/line"/>
+
+    <RelativeLayout
+        android:id="@+id/car_type_layout"
+        style="@style/a_line_style_illegal_search">
+        <TextView
+            android:id="@+id/car_type"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/forward_normal"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/line"/>
+
+    <LinearLayout style="@style/a_line_style_illegal_search">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:text="@string/frame_last_six_num"/>
+        <EditText
+            android:id="@+id/frame_last_six_num"
+            android:layout_marginLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/frame_last_six_num_tips"/>
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        />
+
+    <LinearLayout style="@style/a_line_style_illegal_search">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:text="@string/engine_last_six_num"/>
+        <EditText
+            android:id="@+id/engine_last_six_num"
+            android:layout_marginLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/engine_last_six_num_tips"/>
+    </LinearLayout>
+
+    <View
+        style="@style/line"/>
+
+    <RelativeLayout style="@style/a_line_style_illegal_search">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:text="@string/vechicle_properties"/>
+        <RadioGroup
+            android:id="@+id/carType_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person"/>
+            <RadioButton
+                android:id="@+id/company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/company"/>
+        </RadioGroup>
+
+    </RelativeLayout>
+    <View
+        style="@style/line"/>
+    <Button
+        android:id="@+id/auto_query_sub_layout"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tj_border"
+        android:text="@string/Submit"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

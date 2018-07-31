@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:3:5-26
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:7:5-47
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:7:5-47
+INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:7:15-44
+	android:minSdkVersion
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml
+application
+ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:9:5-12:19
+	android:debuggable
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:11:9-34
+	android:allowBackup
+		ADDED from D:\mine\Car\shareSDK\src\main\AndroidManifest.xml:10:9-35

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/name" />
+        <TextView
+            android:id="@+id/driver_name"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/sex"
+            android:textColor="@color/light_blue"/>
+        <TextView
+            android:id="@+id/driver_sex"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/ID_number" />
+        <TextView
+            android:id="@+id/driver_idcart"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Driver_license_number" />
+        <TextView
+            android:id="@+id/driever_driverlicense"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Driver_qualification_certificate_No." />
+        <TextView
+            android:id="@+id/driver_drivercert"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Duration_of_driver_license" />
+        <TextView
+            android:id="@+id/driver_drivercertedate"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Quasi_driving_type" />
+        <TextView
+            android:id="@+id/driver_cartype"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Driver_license_start_date" />
+        <TextView
+            android:id="@+id/driver_driverlicense_sdate"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:text="@string/Driver_license_expiration_date"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/driver_driverlicense_edate"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Type_of_qualification_certificate" />
+        <TextView
+            android:id="@+id/driver_drivercerttype"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Certificate_issuing_authority"
+            />
+        <TextView
+            android:id="@+id/driver_drivercertauthor"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Driver_ID_card_address" />
+        <TextView
+            android:id="@+id/driver_idaddr"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Driver_is_living_address" />
+        <TextView
+            android:id="@+id/driver_idnowaddr"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/driver_phone_one"
+            />
+        <TextView
+            android:id="@+id/driver_phone"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/driver_phone_two"
+            />
+        <TextView
+            android:id="@+id/driver_phone2"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        style="@style/a_line_style"
+        >
+        <TextView
+            style="@style/a_line_style_text"
+            android:gravity="center"
+            android:text="@string/Remarks" />
+        <TextView
+            android:id="@+id/driver_mark"
+            style="@style/a_line_style_text2"
+            />
+    </LinearLayout>
+</LinearLayout>

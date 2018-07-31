@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/c_fc"
+        android:gravity="right|center_vertical"
+        android:padding="10dp"
+        android:text="@string/Name_of_feedback"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/feed_back_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/feed_back_name" />
+
+    <EditText
+        android:id="@+id/feed_back_name"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/c_fc"
+        android:inputType="text"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toRightOf="@+id/TextView1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="LabelFor" />
+
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/c_fc"
+        android:gravity="right|center_vertical"
+        android:padding="10dp"
+        android:text="@string/Contract_phone"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/feed_back_phone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/TextView1"
+        app:layout_constraintTop_toTopOf="@+id/feed_back_phone" />
+
+    <EditText
+        android:id="@+id/feed_back_phone"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/c_fc"
+        android:inputType="phone"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toRightOf="@+id/TextView2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feed_back_name"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/feed_back_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:hint="@string/feed_back_tips"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintTop_toBottomOf="@+id/feed_back_phone" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bt_submit"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape_button"
+        android:gravity="center"
+        android:text="@string/Submit"
+        android:textColor="@color/c_w"
+        android:textSize="@dimen/big_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feed_back_content" />
+</android.support.constraint.ConstraintLayout>

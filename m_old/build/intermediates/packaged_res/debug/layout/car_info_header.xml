@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/use_property" />
+
+        <TextView
+            android:id="@+id/use_property"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/Purchase_price" />
+
+        <TextView
+            android:id="@+id/Purchase_price"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/Frame_number" />
+
+        <TextView
+            android:id="@+id/Frame_number"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/Engine_number" />
+
+        <TextView
+            android:id="@+id/Engine_number"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/register_data" />
+
+        <TextView
+            android:id="@+id/register_data"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/Verification_qualification_to" />
+
+        <TextView
+            android:id="@+id/Verification_qualification_to"
+            style="@style/a_line_style_text_light2"
+            android:textColor="@android:color/holo_red_light" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/Nuclear_load" />
+
+        <TextView
+            android:id="@+id/Nuclear_load"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/environmental_protection_begin" />
+
+        <TextView
+            android:id="@+id/environmental_protection_begin"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/environmental_protection_end" />
+
+        <TextView
+            android:id="@+id/environmental_protection_end"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/car_plate_type" />
+
+        <TextView
+            android:id="@+id/car_plate_type"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout style="@style/a_line_style">
+
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/environmental_protection_color" />
+
+        <TextView
+            android:id="@+id/environmental_protection_color"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/self_num" />
+
+        <TextView
+            android:id="@+id/self_num"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/start_commission_manager_date" />
+
+        <TextView
+            android:id="@+id/start_commission_manager_date"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <LinearLayout style="@style/a_line_style">
+        <TextView
+            style="@style/a_line_style_text_light"
+            android:text="@string/end_commission_manager_date" />
+
+        <TextView
+            android:id="@+id/end_commission_manager_date"
+            style="@style/a_line_style_text_light2" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <LinearLayout style="@style/a_line_style"
+        android:orientation="horizontal"
+        android:baselineAligned="true">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:text="@string/Outline_width_height"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lenght"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/Outline_length"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/width"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/Outline_width"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/height"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/Outline_height"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+</LinearLayout>

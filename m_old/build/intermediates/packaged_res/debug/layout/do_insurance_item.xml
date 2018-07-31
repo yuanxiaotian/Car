@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="?attr/selectableItemBackground">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <CheckBox
+        android:id="@+id/bx_checkbox"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/bx_plates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/bx_checkbox"
+        android:layout_toRightOf="@+id/bx_checkbox"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/js_owner_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bx_plates"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/bx_plates"
+        android:layout_toRightOf="@+id/bx_plates"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/bx_rphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/js_owner_title"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/js_owner_title"
+        android:layout_toRightOf="@+id/js_owner_title"
+        android:textColor="@android:color/background_dark"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/bx_stype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bx_plates"
+        android:layout_alignStart="@+id/bx_plates"
+        android:layout_below="@+id/bx_plates"
+        android:layout_marginTop="15dp"
+        android:text="@string/Strong_insurance" />
+
+    <TextView
+        android:id="@+id/js_chktime_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bx_stype"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/bx_stype"
+        android:layout_toRightOf="@+id/bx_stype"
+        android:text="@string/Maturity_date"
+        android:textColor="#E9CA1B" />
+
+    <TextView
+        android:id="@+id/bx_enddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/js_chktime_title"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/js_chktime_title"
+        android:layout_toRightOf="@+id/js_chktime_title"
+        android:textColor="#E9CA1B" />
+
+    <LinearLayout
+        android:id="@+id/bx_phones_layout"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/click_effect"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/phones_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image"
+            android:src="@drawable/phones" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bx_msg_layout"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/bx_phones_layout"
+        android:layout_toStartOf="@+id/bx_phones_layout"
+        android:background="@drawable/click_effect"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/msg_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image"
+            android:src="@drawable/xiaoxis" />
+
+    </LinearLayout>
+</RelativeLayout>
+</android.support.v7.widget.CardView>

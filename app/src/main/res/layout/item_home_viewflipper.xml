@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="72dp">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_zf"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="1dp"
+        android:background="@color/c_w"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:textColor="@color/c_2c"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toTopOf="@+id/tv_xl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_xl"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/c_w"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toTopOf="@+id/tv_xt"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_zf"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_zf" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_xt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/c_w"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:textColor="@color/c_2c"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_xl"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_xl" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/shape_square_ffa"
+        android:gravity="center"
+        android:text="政府"
+        android:textColor="@color/c_ffa"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_zf"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_zf" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/shape_square_ffa"
+        android:gravity="center"
+        android:text="旭利"
+        android:textColor="@color/c_ffa"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_xl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_xl" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/shape_square_ffa"
+        android:gravity="center"
+        android:text="系统"
+        android:textColor="@color/c_ffa"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_xt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_xt" />
+
+
+</android.support.constraint.ConstraintLayout>

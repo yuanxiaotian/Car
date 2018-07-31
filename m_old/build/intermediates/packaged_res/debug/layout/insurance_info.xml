@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corners_border">
+
+            <ImageView
+                android:id="@+id/Strong_insurance_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/tuoyuan_76" />
+
+            <TextView
+                android:id="@+id/Commercial_insurance_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/Strong_insurance_icon"
+                android:layout_marginTop="-5dp"
+                android:layout_toEndOf="@+id/Strong_insurance_icon"
+                android:layout_toRightOf="@+id/Strong_insurance_icon"
+                android:text="@string/Strong_insurance"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/insurance_company_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Strong_insurance_icon"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:text="@string/insurance_company"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/insurance_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/insurance_company_one"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_toEndOf="@+id/insurance_company_one"
+                android:layout_toRightOf="@+id/insurance_company_one"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Policy_No_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/insurance_company_one"
+                android:layout_alignStart="@+id/insurance_company_one"
+                android:layout_below="@+id/insurance_company_one"
+                android:layout_marginTop="5dp"
+                android:text="@string/Policy_No"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Policy_No_one_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/insurance_company_name"
+                android:layout_alignStart="@+id/insurance_company_name"
+                android:layout_alignTop="@+id/Policy_No_one"
+                android:layout_below="@+id/insurance_company_name"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/start_time_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Policy_No_one"
+                android:layout_alignStart="@+id/Policy_No_one"
+                android:layout_below="@+id/Policy_No_one"
+                android:layout_marginTop="5dp"
+                android:text="@string/start_time"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/st_one_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Policy_No_one_name"
+                android:layout_alignStart="@+id/Policy_No_one_name"
+                android:layout_alignTop="@+id/start_time_one"
+                android:layout_below="@+id/Policy_No_one_name"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/one_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/st_one_one"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/st_one_one"
+                android:layout_toRightOf="@+id/st_one_one"
+                android:text="@string/to"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/st_one_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/one_to"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/one_to"
+                android:layout_toRightOf="@+id/one_to"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/The_sum_insured_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/start_time_one"
+                android:layout_alignStart="@+id/start_time_one"
+                android:layout_below="@+id/start_time_one"
+                android:layout_marginTop="5dp"
+                android:text="@string/vehicle_and_vessel_tax" />
+
+            <TextView
+                android:id="@+id/The_is1tax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/The_sum_insured_title"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_toEndOf="@+id/The_sum_insured_title"
+                android:layout_toRightOf="@+id/The_sum_insured_title" />
+
+            <TextView
+                android:id="@+id/iMoney_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/The_sum_insured_title"
+                android:layout_alignStart="@+id/The_sum_insured_title"
+                android:layout_below="@+id/The_sum_insured_title"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/money" />
+
+            <TextView
+                android:id="@+id/iMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iMoney_title"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_toEndOf="@+id/iMoney_title"
+                android:layout_toRightOf="@+id/iMoney_title" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/corners_border">
+
+            <ImageView
+                android:id="@+id/Commercial_insurance_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/tuoyuan_76" />
+
+            <TextView
+                android:id="@+id/Commercial_insurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/Commercial_insurance_icon"
+                android:layout_marginTop="-5dp"
+                android:layout_toEndOf="@+id/Commercial_insurance_icon"
+                android:layout_toRightOf="@+id/Commercial_insurance_icon"
+                android:text="@string/Commercial_insurance"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Commercial_insurance_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Commercial_insurance_icon"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:text="@string/insurance_company"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Commercial_insurance_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/Commercial_insurance_one"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_toEndOf="@+id/Commercial_insurance_one"
+                android:layout_toRightOf="@+id/Commercial_insurance_one"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Policy_No_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Commercial_insurance_one"
+                android:layout_alignStart="@+id/Commercial_insurance_one"
+                android:layout_below="@+id/Commercial_insurance_one"
+                android:layout_marginTop="5dp"
+                android:text="@string/Policy_No"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Policy_No_two_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Commercial_insurance_name"
+                android:layout_alignStart="@+id/Commercial_insurance_name"
+                android:layout_alignTop="@+id/Policy_No_two"
+                android:layout_below="@+id/Commercial_insurance_one"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/start_time_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Policy_No_two"
+                android:layout_alignStart="@+id/Policy_No_two"
+                android:layout_below="@+id/Policy_No_two"
+                android:layout_marginTop="5dp"
+                android:text="@string/start_time"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/st_two_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Policy_No_two_name"
+                android:layout_alignStart="@+id/Policy_No_two_name"
+                android:layout_alignTop="@+id/start_time_two"
+                android:layout_below="@+id/Policy_No_two_name"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/two_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/st_two_one"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/st_two_one"
+                android:layout_toRightOf="@+id/st_two_one"
+                android:text="@string/to"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/st_two_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/two_to"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/two_to"
+                android:layout_toRightOf="@+id/two_to"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/The_sum_insured_title_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/start_time_two"
+                android:layout_alignStart="@+id/start_time_two"
+                android:layout_below="@+id/start_time_two"
+                android:layout_marginTop="5dp"
+                android:text="@string/Three_coverage" />
+
+            <TextView
+                android:id="@+id/The_sum_insured_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/The_sum_insured_title_t"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_toEndOf="@+id/The_sum_insured_title_t"
+                android:layout_toRightOf="@+id/The_sum_insured_title_t" />
+
+            <TextView
+                android:id="@+id/iMoney_title_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/The_sum_insured_title_t"
+                android:layout_alignStart="@+id/The_sum_insured_title_t"
+                android:layout_below="@+id/The_sum_insured_title_t"
+                android:layout_marginTop="5dp"
+                android:text="@string/money" />
+
+            <TextView
+                android:id="@+id/iMoney_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iMoney_title_t"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_toEndOf="@+id/iMoney_title_t"
+                android:layout_toRightOf="@+id/iMoney_title_t" />
+
+            <LinearLayout
+                android:id="@+id/business_title_content"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iMoney_t"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/iPager_back"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/image"
+                        android:src="@drawable/back_selector" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/business_title"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/iPager_to"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/image"
+                        android:src="@drawable/forward_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/iPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/business_title_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/corners_border"
+                android:orientation="vertical">
+
+            </android.support.v4.view.ViewPager>
+        </RelativeLayout>
+
+        <View style="@style/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/content_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/Insurance_policy_photo"
+                android:textColor="@color/font_light_gery"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/bx_Strong_insurance"
+                    style="@style/Sketch_map_layout2">
+
+                    <ImageView
+                        android:id="@+id/bx_Strong_insurance_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/image"
+                        android:gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Strong_insurance_policy"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bx_Commercial_insurance"
+                    style="@style/Sketch_map_layout2">
+
+                    <ImageView
+                        android:id="@+id/bx_Commercial_insurance_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/image"
+                        android:gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/add_default_photo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_rectangle"
+                        android:gravity="center"
+                        android:text="@string/Commercial_insurance_policy"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

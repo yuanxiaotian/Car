@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/historySend_item_content"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/c_w">
+
+    <TextView
+        android:id="@+id/send_message_type_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/send_message_type" />
+
+    <TextView
+        android:id="@+id/send_message_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_message_type_title"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/send_message_type_title"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/send_status_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_message_type"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/send_message_type"
+        android:text="@string/send_status" />
+
+    <TextView
+        android:id="@+id/send_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_status_title"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/send_status_title" />
+
+    <TextView
+        android:id="@+id/send_target_phone_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/send_message_type_title"
+        android:layout_below="@+id/send_message_type_title"
+        android:text="@string/send_target_phone" />
+
+    <TextView
+        android:id="@+id/send_target_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_target_phone_title"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/send_target_phone_title"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/msg_num_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_target_phone"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/send_target_phone"
+        android:text="条数：" />
+
+    <TextView
+        android:id="@+id/msg_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_target_phone"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/msg_num_title"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/send_time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/send_target_phone_title"
+        android:layout_below="@+id/send_target_phone_title"
+        android:layout_marginTop="5dp"
+        android:text="@string/send_time"
+        android:textColor="@color/sh" />
+
+    <TextView
+        android:id="@+id/send_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_time_title"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/send_time_title"
+        android:textColor="@color/sh" />
+
+
+    <ImageView
+        android:id="@+id/send_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/send" />
+
+</RelativeLayout>

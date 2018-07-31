@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/c_w">
+
+    <CheckBox
+        android:id="@+id/season_checkbox"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/season_plates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/season_checkbox"
+        android:layout_toRightOf="@+id/season_checkbox"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/js_owner_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/season_plates"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/season_plates"
+        android:layout_toRightOf="@+id/season_plates"
+        android:text="@string/car_owner" />
+
+    <TextView
+        android:id="@+id/season_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/js_owner_title"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/js_owner_title"
+        android:layout_toRightOf="@+id/js_owner_title"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/season_stype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/season_plates"
+        android:layout_alignStart="@+id/season_plates"
+        android:layout_below="@+id/season_plates"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/js_chktime_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/season_stype"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/season_stype"
+        android:layout_toRightOf="@+id/season_stype"
+        android:text="@string/Audit_month"
+        android:textColor="#E9CA1B" />
+
+    <TextView
+        android:id="@+id/season_chktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/js_chktime_title"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/js_chktime_title"
+        android:layout_toRightOf="@+id/js_chktime_title"
+        android:textColor="#E9CA1B" />
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/phones_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/image"
+        android:padding="10dp"
+        android:src="@drawable/phones"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/msg_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/phones_img"
+        android:contentDescription="@string/image"
+        android:padding="10dp"
+        android:src="@drawable/xiaoxis"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>

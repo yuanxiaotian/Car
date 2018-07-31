@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_e8"
+    android:orientation="vertical"
+    tools:context=".ui.homePage.illegalQuery.IllegalIndex">
+
+    <include layout="@layout/toolbar_view" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/illegal_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_w"
+        android:drawableLeft="@drawable/illegal"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/illegal_info"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/illegal_self_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:drawableLeft="@drawable/search_illegal"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/illegal_self_query"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/illegal_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:drawableLeft="@drawable/myorder"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/illegal_my_order"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        tools:ignore="RtlHardcoded" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/price_difference_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:drawableLeft="@drawable/difference_prices"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/price_difference_record"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/save_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:drawableLeft="@drawable/pre_prices"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/save_record"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/me_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_e8">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="0dp"
+        android:layout_height="196dp"
+        android:background="@color/c_1e"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.cangmaomao.lib.view.RoundImageView
+        android:id="@+id/iv_head"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_car"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_bg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_bg" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/c_w"
+        android:textSize="@dimen/big_l_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/iv_head"
+        app:layout_constraintTop_toTopOf="@+id/iv_head" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/userp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/c_e8"
+        android:textSize="@dimen/text_other_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/company_name"
+        app:layout_constraintLeft_toRightOf="@+id/company_name"
+        app:layout_constraintTop_toTopOf="@+id/company_name" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/company_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/c_w"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_head"
+        app:layout_constraintLeft_toLeftOf="@+id/company_name" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/company_carNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/c_w"
+        android:textSize="@dimen/text_other_size"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_head"
+        app:layout_constraintLeft_toRightOf="@+id/company_info" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/shape_square"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/home"
+            android:gravity="center"
+            android:textColor="@color/c_2c"
+            android:textSize="@dimen/text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/driver"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/driver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/home"
+            android:gravity="center"
+            android:textColor="@color/c_2c"
+            android:textSize="@dimen/text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/user"
+            app:layout_constraintRight_toLeftOf="@+id/owner"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/owner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/home"
+            android:gravity="center"
+            android:textColor="@color/c_2c"
+            android:textSize="@dimen/text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/driver"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tv_info_c"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:background="@color/c_w"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"
+        android:text="@string/information_center"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_bg"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tv_pwd"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"
+        android:text="@string/Modify_password"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_info_c"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tv_feedback"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"
+        android:text="@string/feedback"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pwd"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tv_logout"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:background="@color/c_w"
+        android:drawableRight="@drawable/forward_normal"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"
+        android:text="@string/leaf"
+        android:textColor="@color/c_2c"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_feedback"
+        tools:ignore="RtlHardcoded" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+

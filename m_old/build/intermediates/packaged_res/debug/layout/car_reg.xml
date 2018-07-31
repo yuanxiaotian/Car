@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/AppCompatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/c_w"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/from_num"
+        android:textColor="@color/c_2c"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bd_num"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bd_num"
+        tools:ignore="RtlSymmetry" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/bd_num"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0.8dp"
+        android:layout_marginStart="0.8dp"
+        android:background="@color/c_w"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@+id/AppCompatTextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="RtlSymmetry" />
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/c_e8"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bd_num">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/car_card_photo"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:background="@color/c_w"
+            android:gravity="center"
+            android:text="@string/car_card_photo"
+            android:textColor="@color/c_2c"
+            android:textSize="16sp" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/Insurance_info"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/c_w"
+            android:gravity="center"
+            android:text="@string/Insurance_certificate"
+            android:textColor="@color/c_2c"
+            android:textSize="16sp" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/road_certificate"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/c_w"
+            android:gravity="center"
+            android:text="@string/road_certificate"
+            android:textColor="@color/c_2c"
+            android:textSize="16sp" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/carOwner_photo"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/c_w"
+            android:gravity="center"
+            android:text="@string/carOwner_photo"
+            android:textColor="@color/c_2c"
+            android:textSize="16sp" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/main_driver_photo"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/c_w"
+            android:gravity="center"
+            android:text="@string/main_driver_photo"
+            android:textColor="@color/c_2c"
+            android:textSize="16sp" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/assistant_driver_photo"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/c_w"
+            android:gravity="center"
+            android:text="@string/assistant_driver_photo"
+            android:textColor="@color/c_2c"
+            android:textSize="16sp" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/car_photo"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/c_w"
+            android:gravity="center"
+            android:text="@string/other"
+            android:textColor="@color/c_2c"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/carReg_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/LinearLayout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/LinearLayout" />
+
+</android.support.constraint.ConstraintLayout>
